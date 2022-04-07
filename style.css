@@ -1,0 +1,65 @@
+/*
+  background-color: rgb(228, 230, 235); light gray
+  background-color: rgb(40, 40, 40); dark gray
+*/
+
+body {
+  text-align: center;
+  background-color: black;
+//  font-family: 'Courier New', monospace;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  font-size: 175%;
+  color: white;
+}
+
+.display {
+  width: 294px;
+  height: 80px;
+	margin: 0 auto;
+  font-size: 200%;
+  text-align: right;
+}
+
+.container {
+	width: 294px; 
+	margin: 0 auto; 
+  text-align: center;
+  display: grid;
+  grid-template-columns: 73.5px 73.5px 73.5px 73.5px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+/*  background-color: rgb(228, 230, 235); */
+  background-color: #B3B3B3;
+  font-size: 125%;
+  cursor: pointer;
+  border: solid 3px #B3B3B3;
+  border-radius: 10px;
+  color: rgb(40, 40, 40);
+  font-weight: lighter;
+}
+
+#expon, #chs, #invert, #clear {
+  background-color: rgb(40, 40, 40);
+  border-color: rgb(40, 40, 40);
+  color: rgb(228, 230, 235);
+  font-size: 75%;
+  font-weight: bold;
+}
+
+#divide, #multiply, #minus, #plus, #enter {
+  background-color: orange;
+  border-color: orange;
+  color: rgb(40, 40, 40);
+  font-weight: bold;
+}
